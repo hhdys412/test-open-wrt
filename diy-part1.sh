@@ -17,4 +17,4 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone https://github.com/hhdys412/helloworld.git /workdir/hello
 echo "=========="
-mv /workdir/hello /workdir/openwrt/package/
+mv /workdir/hello/* /workdir/openwrt/package/
